@@ -1,0 +1,32 @@
+[package]
+name = "students_api"
+version = "0.1.0"
+edition = "2021"
+default-run = "students_api"
+
+[lib]
+name = "students_api"
+
+[[bin]]
+name = "students_api"
+path = "src/main.rs"
+
+[[bin]]
+name = "add_user"
+path = "src/bin/add_user.rs"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sqlx = { version = "0.8", features = ["sqlite", "runtime-tokio-native-tls", "macros"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+jsonwebtoken = "9"
+argon2 = { version = "0.4", features = ["std"] }
+uuid = { version = "1", features = ["v4"] }
+rand = "0.8"
+rand_chacha = "0.3"
+dotenv = "0.15"
+chrono = "0.4"
+futures = "0.3"
+env_logger = "0.11"

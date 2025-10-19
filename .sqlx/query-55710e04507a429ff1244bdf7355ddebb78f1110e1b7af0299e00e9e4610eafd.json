@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "INSERT INTO students (name, age, photo_url) VALUES (?, ?, ?)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 3
+    },
+    "nullable": []
+  },
+  "hash": "55710e04507a429ff1244bdf7355ddebb78f1110e1b7af0299e00e9e4610eafd"
+}

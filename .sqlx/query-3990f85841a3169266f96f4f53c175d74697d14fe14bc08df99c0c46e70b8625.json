@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "UPDATE students SET name = ?, age = ?, photo_url = ? WHERE id = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 4
+    },
+    "nullable": []
+  },
+  "hash": "3990f85841a3169266f96f4f53c175d74697d14fe14bc08df99c0c46e70b8625"
+}
