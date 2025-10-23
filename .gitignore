@@ -1,16 +1,29 @@
-# Ignorar el archivo de variables de entorno que contiene secretos.
-.env
-
-# Ignorar el directorio de compilación de Rust.
+# Ignorar el directorio de compilación de Rust
 /target/
 
-# Ignorar archivos de registro
-*.log
+# Ignorar el archivo de variables de entorno que contiene secretos
+.env
 
-# Notas de editores y SO
-.DS_Store
+# Base de datos local
+*.db
+
+# Archivos de estado y configuración de Terraform (¡pueden contener secretos!)
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform/
+
+# Archivos de SQLx offline
+.sqlxrc
+
+# Archivos de Visual Studio / VS Code
 .vscode/
-.idea/
+.vs/
 
-# Binarios generados en la raíz (si los hubiera)
+# Archivos de sistema operativo y editores
+.DS_Store
+
+# Binarios y archivos comprimidos
 *.exe
+*.zip
+*.log
