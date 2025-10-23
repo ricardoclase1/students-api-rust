@@ -1,0 +1,16 @@
+# Ignorar el archivo de variables de entorno que contiene secretos.
+.env
+
+# Ignorar el directorio de compilación de Rust.
+/target/
+
+# Ignorar archivos de registro
+*.log
+
+# Notas de editores y SO
+.DS_Store
+.vscode/
+.idea/
+
+# Binarios generados en la raíz (si los hubiera)
+*.exe
