@@ -30,7 +30,10 @@ dotenv = "0.15"
 chrono = "0.4"
 futures = "0.3"
 env_logger = "0.11"
+<<<<<<< HEAD
 
 # Anclamos la versión de base64ct para evitar problemas con la edición 2024
 # en la versión estable actual de Rust.
 base64ct = { version = "1.6.0", features = ["std"] }
+=======
+>>>>>>> 77678fa1cff6c66e5f87a2eff47db43810e35099

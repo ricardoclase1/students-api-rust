@@ -7,7 +7,7 @@ mod models;
 use actix_web::{web, App, HttpServer, middleware::Logger};
 use db::init_db;
 
-
+// La función principal de la librería, que configura y lanza el servidor.
 pub async fn run() -> std::io::Result<()> {
     // Inicializa el logger. Esto nos permitirá ver las peticiones entrantes.
     std::env::set_var("RUST_LOG", "actix_web=info");

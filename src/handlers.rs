@@ -32,7 +32,7 @@ pub async fn login(
     // Si `id` es `None`, algo está mal en la base de datos o en la lógica.
     let user_id = match user.id {
         Some(id) => id,
-        None => return HttpResponse::InternalServerError().json("Error: User ID is missing"),
+        None => return HttpResponse::InternalServerError().json("Error de integridad de datos: el ID de usuario es nulo en la base de datos"),
     };
 
     // Usamos la nueva función verify_password que devuelve un Result
