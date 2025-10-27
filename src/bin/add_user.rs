@@ -1,11 +1,13 @@
 use students_api::auth::hash_password;
 use students_api::db::init_db;
+// 🚨 CORRECCIÓN: Importamos las dependencias a través de nuestra biblioteca.
+use students_api::{dotenvy, sqlx};
 use std::io::{self, Write};
 
 #[tokio::main]
 async fn main() {
     // Cargamos las variables de entorno del archivo .env
-    if dotenv::dotenv().is_err() {
+    if dotenvy::dotenv().is_err() { // Ahora `dotenvy` es accesible.
         eprintln!("❌ Error: No se pudo encontrar el archivo .env. Asegúrate de que exista en la raíz del proyecto.");
         return;
     }
@@ -43,7 +45,7 @@ async fn main() {
         }
     };
 
-    match sqlx::query!("INSERT INTO users (username, password_hash) VALUES (?, ?)", username, password_hash)
+    match sqlx::query!("INSERT INTO users (username, password_hash) VALUES (?, ?)", username, password_hash) // Ahora `sqlx` es accesible.
         .execute(&pool)
         .await {
         Ok(_) => println!("\n✅ ¡Usuario '{}' creado con éxito!", username),

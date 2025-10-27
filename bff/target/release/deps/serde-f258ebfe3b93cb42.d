@@ -1,0 +1,14 @@
+C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\deps\serde-f258ebfe3b93cb42.d: C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\build\serde-a09402850eab3e9f\out/private.rs
+
+C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\deps\libserde-f258ebfe3b93cb42.rlib: C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\build\serde-a09402850eab3e9f\out/private.rs
+
+C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\deps\libserde-f258ebfe3b93cb42.rmeta: C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\build\serde-a09402850eab3e9f\out/private.rs
+
+C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\Ricar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\Ricar\Documents\students-api-rust-main\bff\target\release\build\serde-a09402850eab3e9f\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\Ricar\\Documents\\students-api-rust-main\\bff\\target\\release\\build\\serde-a09402850eab3e9f\\out
